@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+import NacBarr from './components/Navigation/NacBarr';
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
+      <NacBarr/>
     </div>
   );
 }
